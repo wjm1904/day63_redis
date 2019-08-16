@@ -29,6 +29,7 @@ public class App {
         Jedis jedis = JedisUtils.getJedis();
         System.out.println(jedis.get("name"));
 
+        System.out.println("hahahhahaha");
         JedisUtils.closeJedis(jedis);
     }
 
